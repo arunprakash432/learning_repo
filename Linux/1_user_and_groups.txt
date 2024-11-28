@@ -1,0 +1,21 @@
+what is user?
+    1). Every process on the system runs as a particular user.
+    2). Every file is owned by a particular user.
+    3). Access to files and directories are restricted by the user.
+
+#id command:
+    id command is used to show information about the current logged-in user.
+    => id
+
+/etc/passwd
+    => it is a simple flat file used by system to store information about local users.
+Format of /etc/passwd file
+    seven colon separated fields
+    1.username:2.password:3.UID:4.GID:5.GECOS:6./home/dir:7.shell
+
+    #GECOS field is a arbitrary text, which usually includes the user's real name.
+    #shell is a program that runs as the user logs in.For regular user, this normally the program that provides the user's command line input.
+
+what is a group?
+    Groups also have a name and number(GID). Local groups are defined in /etc/group
+    

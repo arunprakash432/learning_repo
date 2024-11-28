@@ -1,0 +1,104 @@
+#Python operators
+# it is used to perform certain operation on the variables and values
+
+#types of operators
+#Arithmetic operators
+#Assignment operators
+#comparison operators
+#logical operators
+#identity operators
+#membership operators
+#bitwise operators
+
+#arithmetic operators
+
+# + is addition
+print(1+2)
+# - is subtraction
+print(1-2)
+# * is multiplication
+print(1*2)
+# / is Division
+print(1/2)
+# % is Modulus
+print(10%3)
+# ** is an Exponentiation
+print(2**2)
+# // Floor Division
+print(100//4)
+
+#python assignment operators
+#it is used to assign values to the variables
+# =, +=, -=, *=, /=, %= , :=
+
+#python comparison operators
+
+# == equal, != not equal, > greater than, < less than, >= greater than or equal to , <= less than or equal to
+a = 500
+b = 100
+c = 50
+if a!=b:
+    print("a is not equal to b")
+else:
+    print("it is equal")
+
+#python logical operators
+#it is used to combine conditonal statements
+# and , or , not are python logical operators
+# and , returns true if both statements are true
+# or , returns true if one of the statements is true
+# not, reverse the result, return false if the result is true
+
+#example for "and" operator
+if a>b and a>c:
+    print("a is the biggest value")
+else:
+    print("a is not the biggest value")
+
+#example for "or" operator
+if a<b or b>c:
+    print("b is bigger than c")
+else:
+    print("nothing")
+
+#python IDENTITY OPERATORS
+# "is" => Returns True if the both variables are the same object.
+# "is not" => Returns True if both variables are not the same object.
+
+xx = 10
+yy = 10
+
+if xx is yy:
+    print("Both variables are same")
+else:
+    print("Both variables aren\'nt same")
+
+var1 = 20
+var2 = 30
+
+if var1 is not var2:
+    print("var1 and var2 are not equal")
+else:
+    print("var1 and var2 are equal")
+
+#python MEMBERSHIP OPERATORS
+# it is used to test if the sequence is presented in object.
+# "in", "not in"
+# "in" => Returns True if a sequence with the specified value is present in the object.
+# "not in" => Returns True if a sequence with the specified value is not present in the object.
+
+#example for "in" membership operators
+sam1 = ["carrot", "brinjal"]
+print("carrot" in sam1)
+print("carrot" not in sam1)
+
+#python BITWISE OPERATORS
+# bitwise operators used to compare (binary) numbers
+
+# PYTHON OPERATOR PRECEDENCE
+# in python, paranthesis has the highest precedence, it means inside the paranthesis must be evaluated first.
+# example for python operator precedence
+print((1-1)+(2+3))
+
+# also python follow traditional mathematical rules of precedence, which means it follows BODMAS rule.
+print(1*3/3+3)
