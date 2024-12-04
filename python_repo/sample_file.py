@@ -13,3 +13,4 @@ print(b.replace('F', 'M'))
 #Split String
 c = "Hello:World,Forever"
 print(c.split(":"))
+
