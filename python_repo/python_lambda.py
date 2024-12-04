@@ -22,4 +22,3 @@ def myfunc(n, b):
 mydash = myfunc(10, 20)
 print(mydash(5))
 
-# use lambda functions when an anonymous function is required for a short period of time.
